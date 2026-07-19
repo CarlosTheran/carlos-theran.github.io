@@ -1,0 +1,50 @@
+[
+  {
+    "title": "AI for Neurodegenerative Disease Assessment",
+    "status": "Active Research Theme",
+    "summary": "Machine-learning and deep-learning methods for disease detection, staging, prognosis, and interpretable analysis using imaging, voice, and clinical data.",
+    "topics": [
+      "Alzheimer's disease",
+      "Parkinson's disease",
+      "MRI and clinical data",
+      "Explainable classification"
+    ],
+    "url": ""
+  },
+  {
+    "title": "Deep Learning for Cancer Detection",
+    "status": "Active Research Theme",
+    "summary": "Computer-vision frameworks for detecting and characterizing cancer using radiology and histopathology images.",
+    "topics": [
+      "Lung cancer LDCT",
+      "Histopathology",
+      "CNNs and vision transformers",
+      "Grad-CAM explanations"
+    ],
+    "url": ""
+  },
+  {
+    "title": "Multimodal Imaging and Data Fusion",
+    "status": "Active Research Theme",
+    "summary": "Fusion of heterogeneous imaging, sensor, clinical, and geospatial data to improve prediction and decision support.",
+    "topics": [
+      "Hyperspectral and multispectral imagery",
+      "Image and tabular data fusion",
+      "Transformer architectures",
+      "Remote sensing"
+    ],
+    "url": ""
+  },
+  {
+    "title": "Trustworthy and Observable AI",
+    "status": "Emerging Research Theme",
+    "summary": "Methods and dashboards for evaluating model reliability, interpretability, cultural alignment, operational behavior, and deployment efficiency.",
+    "topics": [
+      "LLM observability",
+      "Autoraters",
+      "Knowledge graphs",
+      "Responsible AI"
+    ],
+    "url": ""
+  }
+]

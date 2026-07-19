@@ -1,0 +1,18 @@
+[
+  {
+    "project": "Add Active Grant or Sponsored Project",
+    "sponsor": "Sponsor",
+    "period": "Start–End",
+    "role": "PI / Co-PI / Faculty Lead",
+    "students": "Number",
+    "support": "Student stipends, research mentoring, travel, computing, or equipment"
+  },
+  {
+    "project": "Add Completed Grant or Institutional Award",
+    "sponsor": "Sponsor",
+    "period": "Start–End",
+    "role": "Project Role",
+    "students": "Number",
+    "support": "Describe the student research and training activities supported"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Add Graduate Student",
+    "initials": "GS",
+    "role": "Graduate Researcher",
+    "category": "graduate",
+    "research": "Add the student's project title and research area.",
+    "bio": "Replace this placeholder with the student's approved biography, program, degree level, and research period.",
+    "url": ""
+  },
+  {
+    "name": "Add Undergraduate Student",
+    "initials": "US",
+    "role": "Undergraduate Researcher",
+    "category": "undergraduate",
+    "research": "Add the student's project title and research area.",
+    "bio": "Replace this placeholder with the student's approved biography, program, expected graduation date, and research period.",
+    "url": ""
+  },
+  {
+    "name": "Add Lab Alumnus",
+    "initials": "LA",
+    "role": "Lab Alumnus",
+    "category": "alumni",
+    "research": "Add the completed project or thesis topic.",
+    "bio": "Include the research period, resulting publication or presentation, and current position when approved.",
+    "url": ""
+  },
+  {
+    "name": "Add Collaborator",
+    "initials": "CO",
+    "role": "Research Collaborator",
+    "category": "collaborator",
+    "research": "Add the collaborative project or expertise.",
+    "bio": "Include institutional affiliation and the nature of the collaboration.",
+    "url": ""
+  }
+]

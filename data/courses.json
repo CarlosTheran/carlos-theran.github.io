@@ -1,0 +1,62 @@
+[
+  {
+    "level": "Graduate",
+    "code": "COT 5405",
+    "title": "Design and Analysis of Algorithms",
+    "description": "Advanced analysis, design paradigms, complexity, and rigorous evaluation of algorithms."
+  },
+  {
+    "level": "Graduate",
+    "code": "COP 5025",
+    "title": "Programming Languages",
+    "description": "Programming-language paradigms, syntax, semantics, implementation, and comparative analysis."
+  },
+  {
+    "level": "Undergraduate",
+    "code": "COP 3330",
+    "title": "Object-Oriented Programming",
+    "description": "Object-oriented design, classes, inheritance, polymorphism, abstraction, and software development."
+  },
+  {
+    "level": "Undergraduate",
+    "code": "COP 3710",
+    "title": "Database Management Systems",
+    "description": "Relational modeling, SQL, database design, normalization, transactions, and application integration."
+  },
+  {
+    "level": "Undergraduate",
+    "code": "COP 4020",
+    "title": "Programming Languages",
+    "description": "Language paradigms, functional and logic programming, scope, typing, and runtime behavior."
+  },
+  {
+    "level": "Undergraduate",
+    "code": "COT 4440",
+    "title": "Design and Analysis of Algorithms",
+    "description": "Algorithm design techniques, complexity analysis, graph algorithms, and computational problem solving."
+  },
+  {
+    "level": "Undergraduate",
+    "code": "CAP 4064",
+    "title": "Network-Based Multimedia",
+    "description": "Networked multimedia systems, digital media processing, communication, and application development."
+  },
+  {
+    "level": "Undergraduate",
+    "code": "COT 4210",
+    "title": "Foundations of Computer Science",
+    "description": "Formal models, logic, computability, automata, grammars, and theoretical foundations."
+  },
+  {
+    "level": "Special Topics",
+    "code": "CIS 4932",
+    "title": "Introduction to Generative AI for ML and DL",
+    "description": "Generative AI concepts, modern foundation models, practical workflows, evaluation, and responsible use."
+  },
+  {
+    "level": "Special Topics",
+    "code": "CIS 4932",
+    "title": "Introduction to Data Science",
+    "description": "Data preparation, exploration, visualization, statistics, machine learning, and reproducible analysis."
+  }
+]
