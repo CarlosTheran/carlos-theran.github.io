@@ -7,6 +7,12 @@
   },
   {
     "level": "Graduate",
+    "code": "COP 5626",
+    "title": "Artificial Inteligent",
+    "description": "Machine Learning Algorithms, Supervised and Unsupervised Models, implementation, Boundary decision, and Comparative analysis."
+  },
+  {
+    "level": "Graduate",
     "code": "COP 5025",
     "title": "Programming Languages",
     "description": "Programming-language paradigms, syntax, semantics, implementation, and comparative analysis."

@@ -215,3 +215,133 @@ tbody tr:last-child td { border-bottom: 0; }
   .publication-item { grid-template-columns: 1fr; gap: .25rem; }
   .brand small { display: none; }
 }
+
+/* Student presentation gallery */
+
+.student-gallery-section {
+  background: white;
+}
+
+.gallery-section-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: end;
+  margin-bottom: 2rem;
+}
+
+.gallery-section-header .section-intro {
+  margin: 0;
+}
+
+.student-presentation-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-rows: repeat(2, 240px);
+  gap: 1rem;
+}
+
+.student-presentation-card {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--soft);
+  box-shadow: 0 8px 25px rgba(23, 32, 51, 0.055);
+}
+
+.student-presentation-featured {
+  grid-row: 1 / span 2;
+}
+
+.student-presentation-card:last-child {
+  grid-column: 2 / span 2;
+}
+
+.student-presentation-card a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.student-presentation-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+  background: #f4f6f8;
+  object-fit: cover;
+  object-position: 10% 10%;
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+
+}
+
+.student-presentation-card:hover img {
+  transform: scale(1.04);
+  filter: brightness(0.72);
+}
+
+.student-presentation-card figcaption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  gap: 0.2rem;
+  padding: 4rem 1.25rem 1.1rem;
+  color: white;
+  background: linear-gradient(
+    to top,
+    rgba(10, 17, 28, 0.92),
+    rgba(10, 17, 28, 0)
+  );
+}
+
+.student-presentation-card figcaption strong {
+  font-size: 1rem;
+}
+
+.student-presentation-card figcaption span {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.84rem;
+}
+
+@media (max-width: 1050px) {
+  .gallery-section-header {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .student-presentation-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: 320px 220px;
+  }
+
+  .student-presentation-featured {
+    grid-column: 1 / span 2;
+    grid-row: auto;
+  }
+
+  .student-presentation-card:last-child {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 680px) {
+  .student-presentation-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+
+  .student-presentation-card,
+  .student-presentation-featured,
+  .student-presentation-card:last-child {
+    grid-column: auto;
+    grid-row: auto;
+    height: 260px;
+  }
+}

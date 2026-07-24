@@ -35,6 +35,7 @@
         <a href="#lab">Research Lab</a>
         <a href="#research">Research</a>
         <a href="#people">People</a>
+        <a href="#student-presentations">Gallery</a>
         <a href="#publications">Publications</a>
         <a href="#funding">Funding</a>
         <a href="#teaching">Teaching</a>
@@ -61,16 +62,15 @@
           <div class="quick-links" aria-label="Professional links">
             <a href="https://scholar.google.com/citations?user=sWceglQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
             <a href="https://www.famu.edu/info/faculty-staff/profiles/cst/carlos-theran.php" target="_blank" rel="noopener">FAMU Profile</a>
-            <a href="#" data-placeholder="Add your GitHub profile URL">GitHub</a>
-            <a href="#" data-placeholder="Add your LinkedIn profile URL">LinkedIn</a>
-            <a href="#" data-placeholder="Upload your CV to assets/documents and update this link">Download CV</a>
+            <a href="https://github.com/CarlosTheran" data-placeholder="Add your GitHub profile URL" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/carlos-theran-suarez/" data-placeholder="Add your LinkedIn profile URL" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="/assets/documents/ct-cv.pdf" data-placeholder="Upload your CV to assets/documents and update this link" target="_blank" rel="noopener">Download CV</a>
           </div>
         </div>
 
         <aside class="profile-card" aria-label="Profile summary">
           <div class="portrait-placeholder" role="img" aria-label="Placeholder for Dr. Carlos Theran-Suarez professional photograph">
-            <span>CTS</span>
-            <small>Add professional photo</small>
+            <span><img src="assets/images/ct-profile.png" alt="Dr. Carlos Theran-Suarez" ></span>
           </div>
           <dl>
             <div><dt>Institution</dt><dd>Florida A&amp;M University</dd></div>
@@ -88,15 +88,10 @@
           <p class="eyebrow">Profile</p>
           <h2>About</h2>
           <p>
-            Dr. Carlos A. Theran-Suarez is an Assistant Professor of Computer and Information
-            Sciences at Florida A&amp;M University. His work integrates machine learning, deep learning,
-            computer vision, remote sensing, natural language processing, and scalable computing
-            to develop data-driven solutions for healthcare and other high-impact domains.
+            Dr. Carlos A. Theran-Suarez is an Assistant Professor of Computer and Information Sciences at Florida A&M University and Director of the Applied Computational Imaging and Multidomain Analytics Lab (ACIMA Lab), focused on biomedical and geospatial applications. His research integrates machine learning, deep learning, computer vision, remote sensing, natural language processing, multimodal data analysis, and scalable computing to address challenges in medical imaging, neurodegenerative disease assessment, cancer detection, geospatial analysis, explainable AI, and trustworthy model evaluation.
           </p>
           <p>
-            His research interests include medical image analysis, neurodegenerative disease
-            assessment, cancer detection, multimodal data fusion, explainable AI, trustworthy
-            model evaluation, and cloud-based AI infrastructure.
+He also has extensive teaching experience in advanced undergraduate and graduate courses in computer science and data science, including programming languages, algorithms, databases, machine learning, generative AI, and data science. In addition, he has served as a faculty instructor in study-abroad programs in Italy, teaching computing and data science in an international and interdisciplinary environment <a href="https://www.johncabot.edu/admissions/study-abroad-rome-italy/data-science-engineering" target="_blank" rel="noopener">International Collaboration</a>.
           </p>
         </div>
         <div class="info-panel">
@@ -120,33 +115,35 @@
     <section class="section section-alt" id="lab">
       <div class="container">
         <p class="eyebrow">Research Laboratory</p>
-        <h2>Intelligent Imaging and Health Analytics Lab</h2>
-        <p class="section-intro">
-          The <strong>IIHA Lab</strong> develops intelligent imaging, machine learning, and multimodal
+        <h2>Applied Computational Imaging and Multidomain Analytics Lab</h2>
+            <h3>Biomedical and Geospatial Applications</h3>
+        <p>
+          The <strong>ACIMA Lab</strong> develops intelligent imaging, machine learning, and multimodal
           analytics methods that transform complex biomedical, clinical, geospatial, sensor, and
           textual data into interpretable and actionable knowledge.
         </p>
 
         <div class="feature-grid">
           <article class="feature-card">
-            <span class="feature-number">01</span>
-            <h3>Medical Imaging</h3>
+            <span class="feature-number"><h3>Medical Imaging</h3></span>
             <p>MRI, CT, low-dose CT, histopathology, image classification, segmentation, and explainable computer vision.</p>
           </article>
           <article class="feature-card">
-            <span class="feature-number">02</span>
-            <h3>Healthcare Analytics</h3>
+            <span class="feature-number"><h3>Healthcare Analytics</h3></span>
             <p>AI methods for neurodegenerative diseases, cancer, diabetes, clinical risk modeling, and decision support.</p>
           </article>
           <article class="feature-card">
-            <span class="feature-number">03</span>
-            <h3>Multimodal Intelligence</h3>
+            <span class="feature-number"><h3>Multimodal Intelligence</h3></span>
             <p>Fusion of imaging, clinical, sensor, remote-sensing, and language data using modern neural architectures.</p>
           </article>
           <article class="feature-card">
-            <span class="feature-number">04</span>
-            <h3>Trustworthy AI</h3>
+            <span class="feature-number"><h3>Trustworthy AI</h3></span>
             <p>Explainability, model evaluation, bias assessment, LLM observability, reproducibility, and responsible deployment.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number"><h3>Imagery Fusion</h3></span>
+            <p> Remote-sensing image analysis for crop monitoring, agricultural assessment, and environmental applications.
+Image super-resolution using multimodal data fusion to improve spatial quality, classification, and decision-making.</p>
           </article>
         </div>
       </div>
@@ -155,8 +152,8 @@
     <section class="section" id="research">
       <div class="container">
         <p class="eyebrow">Research Portfolio</p>
-        <h2>Research Themes and Projects</h2>
-        <p class="section-intro">Replace or expand these cards as projects progress. Project content is maintained in <code>data/projects.json</code>.</p>
+        <h2>Research Topics and Projects</h2>
+        <p class="section-intro">Previous and current projects.</p>
         <div id="project-grid" class="card-grid" aria-live="polite"></div>
       </div>
     </section>
@@ -165,8 +162,8 @@
       <div class="container">
         <p class="eyebrow">Lab Members</p>
         <h2>Students and Collaborators</h2>
-        <p class="section-intro">
-          Add current and former researchers to <code>data/people.json</code>. Publish photographs and biographical details only with each member's permission.
+        <p>
+          The ACIMA Lab brings together undergraduate and graduate students working on applied machine learning, deep learning, computational imaging, biomedical analytics, and geospatial research. Each member contributes to a specific project aligned with the lab’s mission, including medical image analysis, disease detection, remote-sensing applications, crop monitoring, image super-resolution, multimodal data fusion, and trustworthy AI.
         </p>
         <div class="filter-row" role="group" aria-label="Filter people">
           <button class="filter-button active" data-people-filter="all">All</button>
@@ -178,13 +175,107 @@
         <div id="people-grid" class="people-grid" aria-live="polite"></div>
       </div>
     </section>
+    
+        <section class="section student-gallery-section" id="student-presentations">
+  <div class="container">
+    <div class="gallery-section-header">
+      <div>
+        <p class="eyebrow">Student Research</p>
+        <h2>Presentations and Research Experiences</h2>
+      </div>
+
+      <p class="section-intro">
+        ACIMA Lab students presenting their research at conferences,
+        symposiums, poster sessions, and academic events.
+      </p>
+    </div>
+
+    <div class="student-presentation-grid">
+      <figure class="student-presentation-card student-presentation-featured">
+        <a
+          href="assets/images/student-presentations/presentation-01.jpg"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="assets/images/student-presentations/tyler.jpeg"
+            alt="ACIMA Lab student presenting research at an academic conference"
+            loading="lazy"
+          >
+        </a>
+
+        <figcaption>
+          <strong>Poster Presentation</strong>
+          <span>Tyler Skinner, Undergraduate Research Symposium [FAMU], 2026.</span>
+        </figcaption>
+      </figure>
+
+      <figure class="student-presentation-card">
+        <a
+          href="assets/images/student-presentations/presentation-02.jpg"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="assets/images/student-presentations/sj.jpeg"
+            alt="Student presenting an ACIMA Lab research poster"
+            loading="lazy"
+          >
+        </a>
+
+        <figcaption>
+          <strong>Research Presentation</strong>
+          <span>Johnson Sydney, Study Abroad Presentation [JCU], 2024.</span>
+        </figcaption>
+      </figure>
+
+      <figure class="student-presentation-card">
+        <a
+          href="assets/images/student-presentations/presentation-03.jpg"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="assets/images/student-presentations/jf.png"
+            alt="ACIMA Lab student participating in an academic symposium"
+            loading="lazy"
+          >
+        </a>
+
+        <figcaption>
+          <strong>Academic Symposium</strong>
+          <span>Jadon Ferrance, Student leader Series [FAMU], 2025.</span>
+        </figcaption>
+      </figure>
+
+      <figure class="student-presentation-card">
+        <a
+          href="assets/images/student-presentations/presentation-04.jpg"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="assets/images/student-presentations/jv-cb.png"
+            alt="ACIMA Lab students presenting collaborative research"
+            loading="lazy"
+          >
+        </a>
+
+        <figcaption>
+          <strong>Collaborative Research</strong>
+          <span>Vasquez Jorge and Briggins Chiyle, Student leader Series [FAMU], 2024.</span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
 
     <section class="section" id="publications">
       <div class="container">
         <p class="eyebrow">Scholarly Work</p>
         <h2>Selected Publications</h2>
-        <p class="section-intro">
-          The entries below are editable examples. Update <code>data/publications.json</code> using your verified citation information.
+        <p>
+          The selected publications highlight representative contributions from the ACIMA Lab across computational imaging, machine learning, deep learning, biomedical analytics, geospatial applications, and trustworthy AI. These works reflect collaborations with students and research partners and demonstrate the lab’s commitment to developing practical, data-driven solutions for complex scientific and societal challenges.
         </p>
         <div id="publication-list" class="publication-list" aria-live="polite"></div>
         <div class="center">
@@ -194,12 +285,11 @@
         </div>
       </div>
     </section>
-
     <section class="section section-alt" id="funding">
       <div class="container">
         <p class="eyebrow">Sponsored Research</p>
         <h2>Funding and Student Support</h2>
-        <p class="section-intro">
+        <p>
           Sponsored funding supports research assistants, student stipends, mentoring, conference participation,
           computing resources, software, equipment, and dissemination. Do not publish confidential account,
           payroll, or personally identifiable financial information.
@@ -218,8 +308,8 @@
     <section class="section" id="teaching">
       <div class="container">
         <p class="eyebrow">Instruction</p>
-        <h2>Courses Taught</h2>
-        <p class="section-intro">Initial courses are based on the FAMU faculty profile. Additional courses can be added in <code>data/courses.json</code>.</p>
+        <h2>Courses  Taught</h2>
+        <p>The courses taught reflect experience across foundational, advanced, and applied areas of computer science and data science. They emphasize algorithmic thinking, programming, database systems, machine learning, generative AI, and practical problem-solving for undergraduate and graduate students.</p>
         <div id="course-grid" class="course-grid" aria-live="polite"></div>
       </div>
     </section>

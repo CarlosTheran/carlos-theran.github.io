@@ -1,38 +1,83 @@
 [
   {
-    "name": "Add Graduate Student",
+    "name": "Victor Adankai",
     "initials": "GS",
     "role": "Graduate Researcher",
     "category": "graduate",
-    "research": "Add the student's project title and research area.",
-    "bio": "Replace this placeholder with the student's approved biography, program, degree level, and research period.",
+    "research": "Machine Learning Computational Framework for Alzheimer’s Disease Stages Classification",
+    "bio": "His research develops a machine-learning framework to identify and classify the different stages of Alzheimer’s disease, including datasets with missing clinical information. By integrating data preprocessing, feature selection, imputation techniques, and multiple classification models, the framework achieved up to 99% accuracy, demonstrating its potential to support more reliable disease assessment and clinical decision-making.",
     "url": ""
   },
   {
-    "name": "Add Undergraduate Student",
+    "name": "Robert Beautelus",
     "initials": "US",
     "role": "Undergraduate Researcher",
     "category": "undergraduate",
-    "research": "Add the student's project title and research area.",
-    "bio": "Replace this placeholder with the student's approved biography, program, expected graduation date, and research period.",
+    "research": "Comparative Sentiment Analysis Using BERT and RoBERTa",
+    "bio": "This research developed a sentiment-analysis application using BERT and BERTa-based models to classify opinions expressed in text. The project compared the models’ performance to identify their respective strengths, limitations, and suitability for different sentiment-classification tasks.",
     "url": ""
   },
   {
-    "name": "Add Lab Alumnus",
-    "initials": "LA",
-    "role": "Lab Alumnus",
-    "category": "alumni",
-    "research": "Add the completed project or thesis topic.",
-    "bio": "Include the research period, resulting publication or presentation, and current position when approved.",
+    "name": "Casidhe Pierre",
+    "initials": "US",
+    "role": "Undergraduate Researcher",
+    "category": "undergraduate",
+    "research": "Applying Machine Learning for Diabetes Risk Identification",
+    "bio": "This project applies machine learning techniques to identify patients who may be at risk of developing diabetes. By analyzing relevant clinical and demographic indicators, the models can uncover patterns associated with diabetes and support earlier screening, timely intervention, and more informed healthcare decisions.",
     "url": ""
   },
   {
-    "name": "Add Collaborator",
+    "name": "Tosin Jolaogun",
+    "initials": "US",
+    "role": "Undergraduate Researcher",
+    "category": "undergraduate",
+    "research": "Parkinson’s Disease Detection Using SVM and XGBoost",
+    "bio": "This research applies SVM and XGBoost models to classify Parkinson’s disease using clinical data. The models are trained and tested to compare their performance and assess their potential to support accurate disease identification.",
+    "url": ""
+  },
+  {
+    "name": "Jorge Vasquez and Briggins, Chiyle B.",
+    "initials": "US",
+    "role": "Undergraduate Researcher",
+    "category": "undergraduate",
+    "research": "Non-Invasive Alzheimer’s Disease Detection Using MRI and Convolutional Neural Networks",
+    "bio": "This research applies convolutional neural networks to MRI scans for the non-invasive detection of Alzheimer’s disease. The model analyzes brain-imaging patterns to support accurate disease identification and earlier clinical assessment.",
+    "url": ""
+  },
+  {
+    "name": "Ferrance Jadon.",
+    "initials": "US",
+    "role": "Undergraduate Researcher",
+    "category": "undergraduate",
+    "research": "Lung Cancer Detection Using Histopathological Images and Deep Learning",
+    "bio": "This research applies deep learning techniques to histopathological images to detect and classify lung cancer. The model analyzes tissue patterns to support accurate diagnosis and improve clinical decision-making.",
+    "url": ""
+  },
+  {
+    "name": "Tyler Skinner",
+    "initials": "US",
+    "role": "Undergraduate Researcher",
+    "category": "undergraduate",
+    "research": "YOLO-Based Crowd Anomaly and Threat Detection",
+    "bio": "This research applies deep learning techniques to histopathological images to detect and classify lung cancer. The model analyzes tissue patterns to support accurate diagnosis and improve clinical decision-making.",
+    "url": ""
+  },
+  {
+    "name": "Mariah Piggs",
+    "initials": "US",
+    "role": "Undergraduate Researcher",
+    "category": "undergraduate",
+    "research": "AI Data Center Cooling Techniques and Challenges",
+    "bio": "This research examines cooling techniques for AI data centers and the challenges posed by high-performance computing. It explores energy-efficient solutions to reduce heat, water consumption, operational costs, and environmental impact.",
+    "url": ""
+  },
+  {
+    "name": "Dr. Alciades Bustillo and Dr. Einstein Morales",
     "initials": "CO",
-    "role": "Research Collaborator",
+    "role": "Researchers at University of Puerto Rico - Mayaguez",
     "category": "collaborator",
-    "research": "Add the collaborative project or expertise.",
-    "bio": "Include institutional affiliation and the nature of the collaboration.",
+    "research": "Deep Learning–Based Digital Image Watermarking for Secure Data Protection",
+    "bio": "This research develops a deep learning–based watermarking framework to embed and recover hidden information in digital images. The approach aims to protect image ownership, enhance data security, and maintain visual quality.",
     "url": ""
   }
 ]
