@@ -1,23 +1,30 @@
 [
   {
-    "year": "2026",
-    "title": "Replace with a verified recent publication title",
-    "authors": "Carlos A. Theran-Suarez and collaborators",
-    "venue": "Journal or Conference",
-    "url": "https://scholar.google.com/citations?user=sWceglQAAAAJ&hl=en&oi=ao"
-  },
-  {
     "year": "2025",
-    "title": "Replace with a featured student-coauthored publication",
-    "authors": "Student Author, Carlos A. Theran-Suarez, et al.",
-    "venue": "Journal or Conference",
-    "url": "https://scholar.google.com/citations?user=sWceglQAAAAJ&hl=en&oi=ao"
+    "title": "Evaluation of factors predicting transition from prediabetes to diabetes among patients residing in underserved communities in the United States – A machine learning approach",
+    "authors": "Arinze Nkemdirim Okere, Tianfeng Li, Carlos Theran, Eunice Nyasani, Askal Ayalew Ali",
+    "venue": "Computers in Biology and Medicine",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S001048252500174X"
   },
   {
     "year": "2024",
-    "title": "Replace with an award-winning or high-impact publication",
-    "authors": "Carlos A. Theran-Suarez and collaborators",
-    "venue": "Journal or Conference",
-    "url": "https://scholar.google.com/citations?user=sWceglQAAAAJ&hl=en&oi=ao"
+    "title": "Ethical considerations of generative ai: A survey exploring the role of decision makers in the loop",
+    "authors": "Yohn Jairo Parra Bautista, Carlos Theran, Richard Aló",
+    "venue": "Proceedings of the 2024 AAAI Spring Symposium Series",
+    "url": "https://ojs.aaai.org/index.php/AAAI-SS/article/view/31243"
+  },
+  {
+    "year": "2023",
+    "title": "Multi-source imagery fusion using deep learning in a cloud computing platform",
+    "authors": "Carlos Theran, Michael Alvarez, Emmanuel Arzuaga, Heidy Sierra",
+    "venue": "ARXIV",
+    "url": "https://arxiv.org/abs/2307.03054"
+  },
+  {
+    "year": "2022",
+    "title": "Machine Learning Computational Framework for Alzheimer’s Disease Stages Classification",
+    "authors": "Carlos Theran-Suarez, Yohn Jairo Parra Bautista, Victor Adankai, Richard Aló",
+    "venue": " Proceedings of the Future Technologies Conference (FTC) 2022, Volume 3",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-18344-7_26"
   }
 ]

@@ -1,18 +1,18 @@
 [
   {
-    "project": "Add Active Grant or Sponsored Project",
-    "sponsor": "Sponsor",
-    "period": "Start–End",
-    "role": "PI / Co-PI / Faculty Lead",
-    "students": "Number",
+    "project": "Google REACH GenAI",
+    "sponsor": "Google",
+    "period": "11/2025–10/2026",
+    "role": "PI / Faculty Lead",
+    "students": "10",
     "support": "Student stipends, research mentoring, travel, computing, or equipment"
   },
   {
-    "project": "Add Completed Grant or Institutional Award",
-    "sponsor": "Sponsor",
-    "period": "Start–End",
-    "role": "Project Role",
-    "students": "Number",
-    "support": "Describe the student research and training activities supported"
+    "project": "NSF Florida-Georgia Louis B. Stokes Alliance for Minority Participation (FGLSAMP)",
+    "sponsor": "NSF",
+    "period": "08/2023–12/2025",
+    "role": "Faculty Mentor",
+    "students": "20",
+    "support": "Student stipends, research mentoring"
   }
 ]
